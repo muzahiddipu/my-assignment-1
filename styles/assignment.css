@@ -36,7 +36,7 @@ body{
 
 .btn-primary:hover{
     background-color: #006A50;
-    color: white;
+    color: rgb(20, 177, 216);
 }
 .banner{
     display: flex;
@@ -144,18 +144,19 @@ body{
     background-color: rgb(157, 208, 228);
     color: rgb(93, 3, 149);
 }
-.second{
-    margin-top: 40px;
-    background-color:#09A15C ;
-    color: white;
-    border: none;
-}
+
 .second:hover{
     background-color: rgb(109, 213, 231);
     color: navy;
 }
+.second{
+  margin-top: 40px;
+  background-color:#09A15C ;
+  color: white;
+  border: none;
+}
 .third{
-    background-color: rgb(216, 25, 89);
+    background-color: rgb(207, 59, 108);
     color: white;
     border: none;
 }
@@ -273,6 +274,7 @@ body{
     box-shadow: 1px 1px 5px rgba(228, 228, 228, 0.743);
 }
 .different{
+    /* boarder radious not responding */
     background-color: rgba(198, 228, 214, 1);
 }
 input[type="text"]{
