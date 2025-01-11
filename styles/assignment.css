@@ -124,15 +124,16 @@ body{
     gap: 25px;
     margin-top: 32px;
 }
-.card{
-   width: 400px; 
-   height: 280px;
-   background-color: rgba(84, 144, 245, 0.2);
-   border-radius: 16px;
-   padding: 20px;
-}
+
 .learn-more{
    margin-top: 20px; 
+}
+.card{
+  width: 400px; 
+  height: 280px;
+  background-color: rgba(84, 144, 245, 0.2);
+  border-radius: 16px;
+  padding: 20px;
 }
 .first{
     background-color: rgba(6, 99, 255, 1);
@@ -180,7 +181,7 @@ body{
     margin: 0 auto;
     box-shadow: 1px 1px 5px rgba(208, 208, 208, 0.469);
     border-radius: 10px;
-    height: 390px;
+    height: 370px;
     
 }
 .minister-intro{
@@ -205,7 +206,6 @@ body{
 }
 .satelite-launch{
     display: flex;
-    /* align-items: center; */
     justify-content: space-around;
     padding: 30px;
     gap: 30px;
@@ -221,9 +221,7 @@ body{
     color: #0E0E0E;
     margin-bottom: 10px;
 }
-.satalite-desc img, p>small,{
-    margin-bottom: 12px;
-}
+
 .read-more{
     margin-top: 20px;
     background-color: #006A50;
@@ -231,7 +229,7 @@ body{
     border: none;
 }
 .read-more:hover{
-    background-color: chocolate;
+    background-color: rgb(66, 170, 211);
     color: cyan;
 }
 .satalite-desc p{
@@ -295,7 +293,7 @@ input::placeholder{
     border: none;
 }
 .donate-now:hover{
-    background-color: rgb(75, 75, 24);
+    background-color: rgb(43, 133, 160);
     color: rgb(6, 183, 242);
 }
 .btn{
